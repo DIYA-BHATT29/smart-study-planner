@@ -1,0 +1,59 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Study Planner </title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>🌼Study Planner🌼</h1>
+    </header>
+    <div class="container">
+        
+
+        
+        <section class="section" id="task-section">
+            <h2>Tasks🙌</h2>
+            <div id="task-input">
+                <input type="text" id="task-title" placeholder="Enter task">
+                <input type="date" id="task-date">
+                <button id="add-task-btn">Add Task</button>
+            </div>
+            <ul id="task-list"></ul>
+        </section>
+
+       
+        <section class="section" id="pomodoro-section">
+            <h2>💫Pomodoro Timer💫</h2>
+            <div id="timer">25:00</div>
+            <div class="buttons">
+                <button id="start">Start</button>
+                <button id="pause">Pause</button>
+                <button id="reset">Reset</button>
+            </div>
+        </section>
+
+        
+        <section class="section" id="flashcards-section">
+            <h2>💥Flashcards💥</h2>
+            <div id="flashcard-input">
+                <input type="text" id="flashcard-front" placeholder="Front Text">
+                <input type="text" id="flashcard-back" placeholder="Back Text">
+                <button id="add-flashcard-btn">Add Flashcard</button>
+            </div>
+            <ul id="flashcard-list"></ul>
+        </section>
+
+
+        
+        
+        <section class="section" id="notes-section">
+            <h2>Notes📔</h2>
+            <textarea id="notes" placeholder="Write your notes here 🤗..." rows="10" style="width: 100%;"></textarea>
+        </section>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
